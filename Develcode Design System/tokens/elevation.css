@@ -1,0 +1,18 @@
+:root{
+  /* Light-register shadows: soft, low contrast, no colour cast */
+  --shadow-xs:0 1px 2px rgba(10,11,13,.06);
+  --shadow-sm:0 2px 8px rgba(10,11,13,.08);
+  --shadow-md:0 8px 24px rgba(10,11,13,.10);
+  --shadow-lg:0 20px 48px rgba(10,11,13,.14);
+
+  /* Dark-register: the deck lifts cards with a pale halo, not a drop shadow */
+  --halo-soft:0 0 24px rgba(255,255,255,.10);
+  --halo-card:0 0 32px rgba(255,255,255,.16);
+
+  /* Blue glow — the signature treatment on outlined pills and active cards */
+  --glow-blue-sm:0 0 8px rgba(2,107,240,.55);
+  --glow-blue:0 0 16px rgba(2,107,240,.65), 0 0 2px rgba(2,107,240,.9);
+  --glow-blue-lg:0 0 32px rgba(2,107,240,.55), 0 0 4px rgba(90,167,255,.8);
+
+  --ring-focus:0 0 0 3px rgba(2,107,240,.35);
+}

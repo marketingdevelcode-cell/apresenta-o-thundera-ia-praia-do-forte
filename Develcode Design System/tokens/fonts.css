@@ -1,0 +1,14 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300..800;1,300..800&display=swap");
+
+/* Develcode type — self-hosted.
+   Primary: Satoshi (Fontshare / Indian Type Foundry) — variable 300–900 plus a true italic.
+   Secondary: Montserrat (Google Fonts) — supporting copy, eyebrows, tables.
+   Font files live in assets/fonts/ and ship with the system; no remote font stylesheet is required
+   for the primary face. Replace the files in place if Develcode licenses a different cut. */
+@font-face{font-family:"Satoshi";src:url("../assets/fonts/Satoshi-300-900.woff2") format("woff2-variations"),url("../assets/fonts/Satoshi-300-900.woff2") format("woff2");font-weight:300 900;font-style:normal;font-display:swap}
+@font-face{font-family:"Satoshi";src:url("../assets/fonts/Satoshi-300-900Italic.woff2") format("woff2-variations"),url("../assets/fonts/Satoshi-300-900Italic.woff2") format("woff2");font-weight:300 900;font-style:italic;font-display:swap}
+@font-face{font-family:"Satoshi";src:url("../assets/fonts/Satoshi-300.woff2") format("woff2");font-weight:300;font-style:normal;font-display:swap}
+@font-face{font-family:"Satoshi";src:url("../assets/fonts/Satoshi-400.woff2") format("woff2");font-weight:400;font-style:normal;font-display:swap}
+@font-face{font-family:"Satoshi";src:url("../assets/fonts/Satoshi-500.woff2") format("woff2");font-weight:500;font-style:normal;font-display:swap}
+@font-face{font-family:"Satoshi";src:url("../assets/fonts/Satoshi-700.woff2") format("woff2");font-weight:700;font-style:normal;font-display:swap}
+@font-face{font-family:"Satoshi";src:url("../assets/fonts/Satoshi-900.woff2") format("woff2");font-weight:900;font-style:normal;font-display:swap}

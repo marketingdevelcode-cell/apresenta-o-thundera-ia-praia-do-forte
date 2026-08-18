@@ -1,0 +1,20 @@
+:root{
+  /* Brand gradients, read off the deck */
+  --grad-blue:linear-gradient(135deg,#0F7FFB 0%,#0057EA 45%,#0035E2 100%); /* @kind color */
+  --grad-blue-soft:linear-gradient(160deg,#026BF0 0%,#0044E6 100%); /* @kind color */
+  --grad-dark:linear-gradient(150deg,#1E2425 0%,#0A0B0D 55%,#010A0C 100%); /* @kind color */
+  --grad-light:linear-gradient(140deg,#FFFFFF 0%,#F0F0F5 60%,#E7E6EB 100%); /* @kind color */
+  --grad-blue-radial:radial-gradient(120% 90% at 20% 15%,#0F7FFB 0%,#0057EA 40%,#0026C9 100%); /* @kind color */
+
+  /* Bitmap backdrops shipped in assets/img */
+  --bg-blue-grain:url("../assets/img/bg-blue-grain.png"); /* @kind color */
+  --bg-light-chevron:url("../assets/img/bg-light-chevron.png"); /* @kind color */
+  --bg-dark-texture:url("../assets/img/bg-dark-texture.png"); /* @kind color */
+
+  --grain-overlay:radial-gradient(rgba(255,255,255,.04) 1px,transparent 1px); /* @kind color */
+  --grain-size:3px 3px; /* @kind other */
+
+  --scrim-dark:linear-gradient(180deg,rgba(1,10,12,0) 0%,rgba(1,10,12,.85) 100%); /* @kind color */
+  --scrim-blue:linear-gradient(180deg,rgba(0,26,225,0) 0%,rgba(0,26,225,.7) 100%); /* @kind color */
+  --blur-glass:saturate(140%) blur(14px); /* @kind other */
+}

@@ -1,0 +1,72 @@
+:root{
+  /* Brand blue — sampled from the logo mark and deck accents */
+  --dc-blue-950:#000E3D;
+  --dc-blue-900:#001AE1;
+  --dc-blue-800:#0035E2;
+  --dc-blue-700:#0044E6;
+  --dc-blue-600:#0057EA;   /* logo blue — primary */
+  --dc-blue-500:#026BF0;   /* deck accent / interactive */
+  --dc-blue-400:#0F7FFB;   /* gradient light end */
+  --dc-blue-300:#5AA7FF;
+  --dc-blue-200:#A8CCFF;
+  --dc-blue-100:#D6E5FF;
+  --dc-blue-050:#EDF3FF;
+
+  /* Neutrals — near-black deck surfaces through to the light chevron paper */
+  --dc-ink-1000:#000000;
+  --dc-ink-950:#010A0C;
+  --dc-ink-900:#0A0B0D;
+  --dc-ink-850:#12141A;
+  --dc-ink-800:#1E2425;
+  --dc-ink-700:#2F2D31;
+  --dc-ink-600:#4A4E55;
+  --dc-ink-500:#6C7178;
+  --dc-ink-400:#9AA0A8;
+  --dc-ink-300:#C6CAD1;
+  --dc-ink-200:#E1E2E6;
+  --dc-ink-150:#EDEDEF;
+  --dc-ink-100:#F0F0F5;
+  --dc-ink-050:#F7F7F9;
+  --dc-white:#FFFFFF;
+
+  /* Blue-tinted dark, used where dark panels sit over blue imagery */
+  --dc-navy-900:#050B18;
+  --dc-navy-800:#0E1A29;
+  --dc-navy-700:#121825;
+
+  /* Semantic */
+  --dc-success:#10B57F;
+  --dc-warning:#F5A524;
+  --dc-danger:#E5484D;
+  --dc-info:var(--dc-blue-500);
+
+  /* Aliases — light theme (default) */
+  --text-strong:var(--dc-ink-1000);
+  --text-body:var(--dc-ink-850);
+  --text-muted:var(--dc-ink-500);
+  --text-accent:var(--dc-blue-600);
+  --text-on-brand:var(--dc-white);
+  --surface-page:var(--dc-ink-100);
+  --surface-card:var(--dc-white);
+  --surface-sunken:var(--dc-ink-150);
+  --surface-brand:var(--dc-blue-600);
+  --surface-inverse:var(--dc-ink-900);
+  --border-subtle:var(--dc-ink-200);
+  --border-strong:var(--dc-ink-300);
+  --border-brand:var(--dc-blue-500);
+  --focus-ring:var(--dc-blue-500);
+}
+
+/* Dark theme — the deck's default register for product/vertical pages */
+[data-theme="dark"]{
+  --text-strong:var(--dc-white);
+  --text-body:#E6E8EC;
+  --text-muted:var(--dc-ink-400);
+  --text-accent:var(--dc-blue-400);
+  --surface-page:var(--dc-ink-900);
+  --surface-card:var(--dc-ink-950);
+  --surface-sunken:var(--dc-ink-850);
+  --surface-inverse:var(--dc-white);
+  --border-subtle:#26292F;
+  --border-strong:#3A3E46;
+}
